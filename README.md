@@ -49,14 +49,12 @@ php artisan serve
 php artisan test
 ```
 
-### Run a Manual Test
+### Run Manual Tests
+
+Here are examples of how to test the API with different DOIs:
 ```
 curl http://localhost:8000/publications?doi=10.1038/nphys1170
 ```
-
-### Test Examples
-
-Here are examples of how to test the API with different DOIs:
 
 ```
 curl http://localhost:8000/publications?doi=10.1200/jco.2007.25.18_suppl.3507
